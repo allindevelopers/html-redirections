@@ -1,0 +1,9 @@
+{
+  "name": "html-redirections",
+  "version": "0.0.1",
+  "description": "Generate HTML redirections from json file",
+  "keywords": [],
+  "author": "Andrew Luca (https://iamandrewluca.com/)",
+  "license": "MIT",
+  "bin": "./cli.js"
+}

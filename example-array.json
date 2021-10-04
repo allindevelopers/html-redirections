@@ -1,0 +1,19 @@
+[
+    {
+        "from": "/dev",
+        "to": "https://dev.to/iamandrewluca"
+    },
+    {
+        "from": "/github",
+        "to": "https://github.com/iamandrewluca"
+    },
+    {
+        "from": "/twitter",
+        "to": "https://twitter.com/iamandrewluca"
+    },
+    {
+        "from": "/linkedin",
+        "to": "https://www.linkedin.com/in/iamandrewluca/",
+        "delay": 5
+    }
+]
