@@ -1,6 +1,6 @@
 {
   "name": "html-redirections",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Generate HTML redirections from json file",
   "keywords": [],
   "author": "Andrew Luca (https://iamandrewluca.com/)",
