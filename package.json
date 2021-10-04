@@ -2,8 +2,17 @@
   "name": "html-redirections",
   "version": "1.0.0",
   "description": "Generate HTML redirections from json file",
-  "keywords": [],
+  "keywords": [
+    "reactjs",
+    "nextjs",
+    "vuejs",
+    "nuxtjs",
+    "angular",
+    "universal",
+    "html"
+  ],
   "author": "Andrew Luca (https://iamandrewluca.com/)",
   "license": "MIT",
-  "bin": "./cli.js"
+  "bin": "./cli.js",
+  "repository": "https://github.com/iamandrewluca/html-redirections.git"
 }
