@@ -1,6 +1,6 @@
 {
   "name": "html-redirections",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Generate HTML redirections from json file",
   "keywords": [
     "reactjs",
@@ -11,7 +11,9 @@
     "universal",
     "html"
   ],
-  "scripts": { "test": "exit 0" },
+  "scripts": {
+    "test": "exit 0"
+  },
   "author": "Andrew Luca (https://iamandrewluca.com/)",
   "license": "MIT",
   "bin": "./cli.js",
