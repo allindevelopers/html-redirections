@@ -13,5 +13,11 @@ type Redirect = {
     from: string
     to: string
     delay?: number
+    meta?: [
+        {
+            name: string
+            content: string
+        }
+    ]
 }
 ```
