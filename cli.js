@@ -35,11 +35,9 @@ redirects.forEach(({ from, to, delay = 0, meta = [] }) => {
 	fs.mkdirSync(directory, { recursive: true })
 
 	let addHtml = `<meta http-equiv="Refresh" content="${delay};url=${encodeURI(to)}">`
-	if (meta) {
-		meta.forEach(({ name, content }) => {
-			addHtml += `<meta name="${name}" content="${content}">`
-		})
-	}
+	meta.forEach(({ name, content }) => {
+		addHtml += `<meta name="${name}" content="${content}">`
+	})
 
 	fs.writeFileSync(
 		path.join(directory, 'index.html'), addHtml
