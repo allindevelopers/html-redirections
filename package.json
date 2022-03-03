@@ -11,6 +11,7 @@
     "universal",
     "html"
   ],
+  "scripts": { "test": "exit 0" },
   "author": "Andrew Luca (https://iamandrewluca.com/)",
   "license": "MIT",
   "bin": "./cli.js",
