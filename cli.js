@@ -28,13 +28,18 @@ if (!redirects) {
 }
 
 
-redirects.forEach(({ from, to, delay = 0 }) => {
+redirects.forEach(({ from, to, delay = 0, meta = [] }) => {
 	const pathname = new URL(from, 'https://localhost').pathname
 	const directory = path.join(outputDirectory, pathname)
 
 	fs.mkdirSync(directory, { recursive: true })
+
+	let addHtml = `<meta http-equiv="Refresh" content="${delay};url=${encodeURI(to)}">`
+	meta.forEach(({ name, content }) => {
+		addHtml += `<meta name="${name}" content="${content}">`
+	})
+
 	fs.writeFileSync(
-		path.join(directory, 'index.html'),
-		`<meta http-equiv="Refresh" content="${delay};url=${encodeURI(to)}">`
+		path.join(directory, 'index.html'), addHtml
 	)
 })
