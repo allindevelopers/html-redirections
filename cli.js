@@ -28,7 +28,7 @@ if (!redirects) {
 }
 
 
-redirects.forEach(({ from, to, delay = 0, meta = null }) => {
+redirects.forEach(({ from, to, delay = 0, meta = [] }) => {
 	const pathname = new URL(from, 'https://localhost').pathname
 	const directory = path.join(outputDirectory, pathname)
 
