@@ -1,5 +1,5 @@
 {
-  "name": "html-redirections",
+  "name": "@allindevelopers/html-redirections",
   "version": "1.1.0",
   "description": "Generate HTML redirections from json file",
   "keywords": [
@@ -14,8 +14,8 @@
   "scripts": {
     "test": "exit 0"
   },
-  "author": "Andrew Luca (https://iamandrewluca.com/)",
+  "author": "Andrei Luca (https://luca.md)",
   "license": "MIT",
   "bin": "./cli.js",
-  "repository": "https://github.com/iamandrewluca/html-redirections.git"
+  "repository": "https://github.com/allindevelopers/html-redirections.git"
 }
