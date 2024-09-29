@@ -16,6 +16,8 @@
   },
   "author": "Andrei Luca (https://luca.md)",
   "license": "MIT",
-  "bin": "./cli.js",
+  "bin": {
+    "html-redirections": "./cli.js"
+  },
   "repository": "https://github.com/allindevelopers/html-redirections.git"
 }
